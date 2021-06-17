@@ -1,0 +1,56 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+.centered {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color:white;
+}
+
+.container {
+max-width: 1000px;
+margin: 70px auto;
+}
+
+.column h3 {
+font-size: 28px;
+text-decoration: none;
+}
+
+.centered h1 {
+font-size: 56px;
+text-align: center;
+}
+
+.column {
+float: left;
+width: 30%;
+padding: 10px;
+}
+
+.column img{
+border-radius: 25% 10%;
+}
+
+.column h3{
+text-decoration: underline;
+font-family: 'Dancing Script', cursive;
+}
+
+p{
+font-family: 'UlagadiSansRegular';
+ font-weight: normal;
+ font-style: normal;
+}
+/* Clearfix (clear floats) */
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
