@@ -54,9 +54,24 @@ content: "";
 clear: both;
 display: table;
 }
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:500px) {
   /* For mobile phones: */
-  .column, .centered, p, .container, * {
+  .column, p, .container, *, .background {
     width: 100%;
   }
+  .centered h1{
+    font-size: 20px;
+
+
+  }
+  .centered {
+    font-size: 14px;
+    position:  absolute ;
+    top: 15%;
+    left: 0%;
+    transform: translate(0%, 0%);
+
+
+  }
+
 }
